@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buddybot</title>
+    <!-- Linking external stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Chat container to hold all chat messages -->
+    <div class="chat-container">
+        
+        <!-- User chat box -->
+        
+        
+        <!-- AI chat box -->
+        <div class="ai-chat-box">
+            <img src="ai.png" alt="AI Icon" id="aiImage" width="35">
+            <div class="ai-chat-area">
+                <!-- AI chat messages will be displayed here -->
+                Hello! How Can I help you?
+               
+            </div>
+            
+        </div>
+    </div>
+    
+    <!-- Prompt area for user input (missing closing div corrected) -->
+    <div class="prompt-area">
+        <!-- Input field and button can be added here -->
+        <input type="text" id="prompt" placeholder="Message...">
+        <button id="image"><img src="img.svg" alt="" >
+        <input type="file" accept="images/*" hidden></button>
+        
+        <button id="submit"><img src="submit.svg" alt="" ></button>
+    </div>
+    
+    <!-- Linking external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
