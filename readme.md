@@ -58,4 +58,4 @@ To set up **Buddybot** on your local machine, follow these steps:
 ### **1️⃣ Clone the repository using Git**
 Open your terminal or command prompt and run:
 ```sh
-git clone https://github.com/your-repository/Buddybot.git
+git clone https://github.com/aqeelMehdi/Buddybot-AI.git
